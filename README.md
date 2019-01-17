@@ -2,6 +2,29 @@
 
 [Tutorial: Building a RESTful API with Node.js](https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
 
+### What are we building?
+
+Asterisk (*) means a route is authenticated:
+
+/products
+- `GET /products`
+- `POST /products` *
+
+/products/{id}
+- `GET /products/{id}`
+- `PATCH /products/{id}` *
+- `DELETE /products/{id}` *
+
+/orders
+- `GET /orders` *
+- `POST /orders` *
+
+/orders/{id}
+- `GET /orders/{id}` *
+- `DELETE /orders/{id}` *
+
+
+
 ### What are RESTful constraints?
 
 Client-Server Architecture: *
