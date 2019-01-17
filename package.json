@@ -1,0 +1,20 @@
+{
+  "name": "node-rest-shop",
+  "version": "1.0.0",
+  "description": "Building a RESTful API with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnryjmes/node-rest-shop.git"
+  },
+  "keywords": [],
+  "author": "Henry Cooksley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnryjmes/node-rest-shop/issues"
+  },
+  "homepage": "https://github.com/hnryjmes/node-rest-shop#readme"
+}
