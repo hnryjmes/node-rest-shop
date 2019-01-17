@@ -1,5 +1,7 @@
 # node-rest-shop
 
+Learning backend web development fundamentals with TypeScript, JavaScript, Node, Express, MongoDB etc.
+
 [Tutorial: Building a RESTful API with Node.js](https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
 
 ### What are we building?
