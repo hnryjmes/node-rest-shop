@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hnryjmes/node-rest-shop#readme",
   "dependencies": {
+    "@types/express": "^4.16.0",
     "express": "^4.16.4",
     "tslint": "^5.12.1"
   }
