@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hnryjmes/node-rest-shop/issues"
   },
-  "homepage": "https://github.com/hnryjmes/node-rest-shop#readme"
+  "homepage": "https://github.com/hnryjmes/node-rest-shop#readme",
+  "dependencies": {
+    "tslint": "^5.12.1"
+  }
 }
