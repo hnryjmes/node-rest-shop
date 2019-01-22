@@ -1,11 +1,10 @@
 import express from "express";
-
 const app = express();
 
-app.use((req, res, next) => {
-  res.status(200).json({
-    message: "It works with ts-node!",
-  });
-});
+import orderRoutes from "./api/routes/orders";
+import productRoutes from "./api/routes/products";
+
+app.use("/products", productRoutes);
+app.use("/orders", orderRoutes);
 
 export default app;
