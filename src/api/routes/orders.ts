@@ -78,7 +78,7 @@ router.get("/:orderId", (req, res, next) => {
         order,
         request: {
           type: "GET",
-          url: "http://localhost:3000/orders"
+          url: "http://localhost:3000/orders",
         },
       });
     })
