@@ -1,9 +1,19 @@
 import express from "express";
 const app = express();
 import bodyParser from "body-parser";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
 import morgan from "morgan";
 import orderRoutes from "./api/routes/orders";
 import productRoutes from "./api/routes/products";
+
+dotenv.config();
+
+// tslint:disable-next-line: max-line-length
+mongoose.connect(
+  `mongodb+srv://node-shop:${ process.env.MONGO_ATLAS_PW }@node-rest-shop-mchfp.mongodb.net/test?retryWrites=true`,
+  { useNewUrlParser: true },
+);
 
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({extended: false}));
