@@ -9,6 +9,7 @@ router.get("/", (req, res, next) => {
   Order
     .find()
     .select("product quantity _id")
+    .populate("product")
     .exec()
     .then((docs) => res.status(200).json({
       count: docs.length,
